@@ -47,7 +47,7 @@ measures:
     name: total_likes
     label: Likes
     format_preset: humanize
-    description: The total number of posts.
+    description: The total number of likes.
     valid_percent_of_total: true
   - expression: COUNT(*) FILTER (WHERE record_type = 'repost')
     name: total_reposts

@@ -3,7 +3,7 @@
 -- Reference documentation: https://docs.rilldata.com/reference/project-files/models
 
 {{if dev}} 
-  SELECT * FROM '/Users/michaeldriscoll/skeetstream/data/year=2024/month=11/day=18/hour=[7|8|9|10]/*.parquet' 
+  SELECT * FROM 'gs://medriscoll-rill/rill-bluesky-jetstream/year=2024/month=11/day=18/hour=*/1731896872.parquet'
 {{else}}
-  SELECT * FROM 'https://hive.buz.dev/bluesky/jetstream/latest.parquet'
+  SELECT * FROM 'gs://medriscoll-rill/rill-bluesky-jetstream/year=2024/month=11/day=18/hour=*/*.parquet'
 {{end}}
