@@ -2,7 +2,7 @@
 
 A demo of Rill dashboards exploring BlueSky metrics.
 
-This dashboard is currently live on [ Rill Cloud ]( https://ui.rilldata.com/demo/rill-bluesky/explore )
+This dashboard is currently live on [ Rill Cloud ]( https://ui.rilldata.com/demo/rill-bluesky/explore/bluesky_dashboard )
 
 ![alt text](image-1.png)
 
