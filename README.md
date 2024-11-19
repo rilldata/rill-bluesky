@@ -35,8 +35,7 @@ If you've got any improvements, make a pull request on this repo and we'll likel
 
 ## Special thanks
 
-* [https://bsky.app/profile/jakthom.bsky.social](Jake Thomas) for making Jetstream data available as Parquet.
-* 
+* [Jake Thomas]( https://bsky.app/profile/jakthom.bsky.social) for making Jetstream data available as Parquet.
 
 
 
