@@ -7,6 +7,6 @@
     union_by_name=true)
 
 {{else}}
-  SELECT * FROM read_parquet('gs://medriscoll-rill/rill-bluesky-jetstream/year=2024/month=11/day=18/hour=*/*.parquet',
+  SELECT * FROM read_parquet('gs://medriscoll-rill/rill-bluesky-jetstream/year=2024/month=11/day=17/hour=*/*.parquet',
     union_by_name=true)
 {{end}}
