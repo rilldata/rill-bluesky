@@ -6,7 +6,7 @@ version: 1
 type: metrics_view
 
 title: Bluesky Latest Metrics
-model: bluesky_latest
+model: jetstream_clean
 timeseries: time
 
 dimensions:

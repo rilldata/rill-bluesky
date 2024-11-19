@@ -10,6 +10,9 @@ WITH iso639 AS (
                  }, header=False
    )
    WHERE alpha2 IS NOT null)
+
+FROM jetstream_parquet, iso639
+
 SELECT
   to_timestamp(time_us / 10^6) AS time,
   did,
@@ -20,5 +23,4 @@ SELECT
   iso639.alpha2english[record_lang][1] AS record_language,
   regexp_replace(json_extract(commit, '$.rkey'), '^"(.*)"$', '\1') AS record_key,
   CONCAT('https://bsky.app/profile/',did,'/post/',record_key) AS record_uri,
-  FROM model, iso639
   WHERE commit_operation IN ('create')

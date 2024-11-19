@@ -4,7 +4,7 @@
 type: explore
 
 title: "Bluesky Metrics Dashboard"
-metrics_view: bluesky_latest_metrics
+metrics_view: bluesky_metrics
 
 dimensions: '*'
 measures: '*'
