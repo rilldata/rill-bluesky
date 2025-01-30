@@ -6,7 +6,11 @@ type: explore
 title: "Bluesky Metrics Dashboard"
 metrics_view: bluesky_metrics
 
-dimensions: '*'
+dimensions: 
+  - did_uri
+  - record_lang
+  - record_type
+  
 measures: '*'
 
 time_zones:
