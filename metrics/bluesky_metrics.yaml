@@ -20,6 +20,8 @@ dimensions:
     name: URL
     label: URL
     description: Link to the relevant URL for the post, repost, or like.  
+    display_name: record_uri
+    uri: true
   - column: did_uri
     name: did_uri
     label: Profile URL
