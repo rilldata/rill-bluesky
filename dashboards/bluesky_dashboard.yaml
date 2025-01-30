@@ -8,6 +8,7 @@ metrics_view: bluesky_metrics
 
 dimensions: 
   - did_uri
+  - record_uri
   - record_lang
   - record_type
   
