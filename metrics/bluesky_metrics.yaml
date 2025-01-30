@@ -25,7 +25,8 @@ dimensions:
   - column: did_uri
     name: did_uri
     label: Profile URL
-
+    uri: true
+    
 measures:
   - expression: COUNT(DISTINCT did)
     name: unique_dids
