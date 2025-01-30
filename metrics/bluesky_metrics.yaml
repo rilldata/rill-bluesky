@@ -17,7 +17,7 @@ dimensions:
     label: Language
     description: The language of the post.
   - column: record_uri
-    name: URL
+    name: record_uri
     label: URL
     description: Link to the relevant URL for the post, repost, or like.  
     display_name: record_uri
